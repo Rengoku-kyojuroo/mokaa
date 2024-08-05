@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url('css/OIP.jpeg');
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .IMG {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+header .HEAD {
+    list-style-type: none;
+    padding: 0;
+}
+
+header .HEAD li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header .HEAD li a {
+    color: #f5f5f5; /* لون أبيض فاتح */
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; /* لون خلفية القائمة المنسدلة */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #f5f5f5; /* لون النص في القائمة المنسدلة */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757; /* لون الخلفية عند التمرير فوق العناصر */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+p {
+    padding: 20px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+    border-left: 5px solid #1c059e70; /* حدود ملونة على اليسار */
+}
+
+textarea {
+    display: block;
+    width: calc(100% - 42px);
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px dashed #1c059e70;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
